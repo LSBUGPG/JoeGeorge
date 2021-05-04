@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: ColorSwap_Example_Basic_PlusNormal
+  m_Shader: {fileID: 4800000, guid: 86ff104afaa2b1940a1036a097b990e3, type: 3}
+  m_ShaderKeywords: _ACTIVE_ON
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Albedotexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AlbedotextureCoutoutA:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTextureGloss:
+        m_Texture: {fileID: 2800000, guid: cff1b769f369f3b47ac45283a7510f28, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ProtectionMaskR:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Active: 1
+    - _BaseGloss: 0.85
+    - _BaseMetal: 0.2
+    - _Color3Metalness: 0.1
+    - _Cutoff: 0.5
+    - _Gloss1: 0
+    - _Gloss2: 0
+    - _OverallEffect: 1
+    - _OverallEmissive: 1
+    - _Range1: 0.38
+    - _Range2: 0.51
+    - _Range3: 0.59
+    - _SoftFallOff1: 0.1
+    - _SoftFallOff2: 0.1
+    - _SoftFallOff3: 0.1
+    - __dirty: 0
+    m_Colors:
+    - _ColorDetect1: {r: 1, g: 0, b: 0, a: 0}
+    - _ColorDetect1Softness: {r: 1, g: 0.9724138, b: 0, a: 0.078}
+    - _ColorDetect2: {r: 0, g: 1, b: 0.213793, a: 0.05882353}
+    - _ColorDetect2Softness: {r: 0.15294118, g: 1, b: 1, a: 0.253}
+    - _ColorDetect3: {r: 0, g: 1, b: 0.213793, a: 0.05882353}
+    - _ColorDetect3Softness: {r: 1, g: 0.14901961, b: 1, a: 0.234}
+    - _NewColor1: {r: 1, g: 0.8482759, b: 0, a: 0}
+    - _NewColor1Gloss: {r: 0, g: 0.04827571, b: 1, a: 0.734}
+    - _NewColor2: {r: 0, g: 1, b: 0.9172413, a: 0}
+    - _NewColor2Gloss: {r: 1, g: 0, b: 0, a: 0.822}
+    - _NewColor3Metal: {r: 0.47794116, g: 0.30654156, b: 0, a: 1}

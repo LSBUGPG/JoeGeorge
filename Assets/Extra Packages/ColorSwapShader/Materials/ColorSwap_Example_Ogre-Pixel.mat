@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ColorSwap_Example_Ogre-Pixel
+  m_Shader: {fileID: 4800000, guid: 524b54887fdeeaa41b9d66f9c2ee8a78, type: 3}
+  m_ShaderKeywords: _ACTIVE_ON
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Albedotexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AlbedotextureCoutoutA:
+        m_Texture: {fileID: 2800000, guid: 58abbffd5580c8c4ca72949ced51bb90, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTextureGloss:
+        m_Texture: {fileID: 2800000, guid: cff1b769f369f3b47ac45283a7510f28, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ProtectionMaskR:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Active: 1
+    - _BaseGloss: 0.254
+    - _BaseMetal: 0.171
+    - _Color3Metalness: 0.345
+    - _Cutoff: 0.5
+    - _Gloss1: 0.122
+    - _Gloss2: 0.624
+    - _OverallEffect: 0.773
+    - _OverallEmissive: 0.462
+    - _Range1: 0.209
+    - _Range2: 0.177
+    - _Range3: 0.356
+    - _SoftFallOff1: 0.304
+    - _SoftFallOff2: 0.39
+    - _SoftFallOff3: 0.396
+    - __dirty: 0
+    m_Colors:
+    - _ColorDetect1: {r: 0.124026805, g: 0.22794116, b: 0.16774249, a: 0}
+    - _ColorDetect1Softness: {r: 0.18431373, g: 0.20000002, b: 0.10588236, a: 0.441}
+    - _ColorDetect2: {r: 0.26157007, g: 0.60294116, b: 0.33455282, a: 0.05882353}
+    - _ColorDetect2Softness: {r: 0.48627454, g: 0.54901963, b: 0.27450982, a: 0.553}
+    - _ColorDetect3: {r: 0.58391005, g: 0.99264705, b: 0.6712952, a: 0.05882353}
+    - _ColorDetect3Softness: {r: 0.86079574, g: 0.97794116, b: 0.26605755, a: 0.378}
+    - _NewColor1: {r: 0, g: 0, b: 0, a: 0}
+    - _NewColor1Gloss: {r: 0.18295847, g: 0.19080956, b: 0.3455882, a: 0}
+    - _NewColor2: {r: 0.44117647, g: 0.15570934, b: 0.2679275, a: 0}
+    - _NewColor2Gloss: {r: 0.12651385, g: 0.28707498, b: 0.38235295, a: 0}
+    - _NewColor3Metal: {r: 0.89705884, g: 0.67870784, b: 0.40235728, a: 0.203}

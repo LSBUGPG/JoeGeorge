@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ColorSwap_Ex_Ogre-5ColorCutColor2Sided
+  m_Shader: {fileID: 4800000, guid: 1bef1ec40167621478a65b5f7797f1ea, type: 3}
+  m_ShaderKeywords: _ACTIVE_ON
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AO_Map:
+        m_Texture: {fileID: 2800000, guid: b1512e710af83424fb2193fb21241ecc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AlbedoTexture:
+        m_Texture: {fileID: 2800000, guid: 87ae3159010e2b14fb9aaa521344b200, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AlbedoTextureCutoutA:
+        m_Texture: {fileID: 2800000, guid: 87ae3159010e2b14fb9aaa521344b200, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AlbedoTextureCutoutAlpha:
+        m_Texture: {fileID: 2800000, guid: 87ae3159010e2b14fb9aaa521344b200, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetalGloss:
+        m_Texture: {fileID: 2800000, guid: d415f222ceeabb84991e3e002808363e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 5ca6cfab780c1144dba9d5415ec814c7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ProtectionMaskR:
+        m_Texture: {fileID: 2800000, guid: 6e4cb514e40c13a498d3132d787fcd75, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AO_Power: 0.49
+    - _Cutoff: -0.3
+    - _ExtraGloss_FromColor4: 0.738
+    - _ExtraMetal_FromColor5: 0.375
+    - _MakeColor2Glow: 0.49
+    - _MakeColor3Vanish: 1
+    - _OutlineWidth: 0.281
+    - _OverallEffect: 1
+    - _OverallEmissive: 0.139
+    - _OverrideGloss: 0.518
+    - _ProtectionLevel: 0.856
+    - _Range1: 0.09
+    - _Range2: 0.186
+    - _Range3: 0.01
+    - _Range4: 0.102
+    - _Range5: 0.529
+    - _Soft_FallOff1: 0.139
+    - _Soft_FallOff2: 0.233
+    - _Soft_FallOff3: 0.446
+    - _Soft_FallOff4: 0.185
+    - _Soft_FallOff5: 0.162
+    - __dirty: 0
+    m_Colors:
+    - _ColorDetect1: {r: 0.16862746, g: 0.16470589, b: 0.10980393, a: 1}
+    - _ColorDetect2: {r: 0.3698097, g: 0.6985294, b: 0.41288334, a: 1}
+    - _ColorDetect3: {r: 0.22804935, g: 0.2794118, b: 0.05341696, a: 1}
+    - _ColorDetect4: {r: 0.51108, g: 0.5735294, b: 0.20663927, a: 1}
+    - _ColorDetect5: {r: 0.37058014, g: 0.41911763, b: 0.16025086, a: 1}
+    - _NewColor1: {r: 0.07088018, g: 0.10210155, b: 0.41911763, a: 1}
+    - _NewColor2: {r: 1, g: 1, b: 1, a: 1}
+    - _NewColor3: {r: 0.90344834, g: 1, b: 0, a: 0}
+    - _NewColor4: {r: 0, g: 0.3706895, b: 0.63235295, a: 1}
+    - _NewColor5: {r: 0.088343434, g: 0.5197991, b: 0.63235295, a: 1}
+    - _OutlineColor: {r: 0.04930796, g: 0.11858968, b: 0.17647058, a: 0}

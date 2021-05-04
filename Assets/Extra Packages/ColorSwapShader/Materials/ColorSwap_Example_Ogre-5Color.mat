@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: ColorSwap_Example_Ogre-5Color
+  m_Shader: {fileID: 4800000, guid: e15397a6a3eaea24083c8412f2bb1dd7, type: 3}
+  m_ShaderKeywords: _ACTIVE_ON
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AO_Map:
+        m_Texture: {fileID: 2800000, guid: b1512e710af83424fb2193fb21241ecc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AlbedoTexture:
+        m_Texture: {fileID: 2800000, guid: 87ae3159010e2b14fb9aaa521344b200, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AlbedoTextureCutoutA:
+        m_Texture: {fileID: 2800000, guid: 87ae3159010e2b14fb9aaa521344b200, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AlbedoTextureCutoutAlpha:
+        m_Texture: {fileID: 2800000, guid: 87ae3159010e2b14fb9aaa521344b200, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTextureGloss:
+        m_Texture: {fileID: 2800000, guid: 87ae3159010e2b14fb9aaa521344b200, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetalGloss:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 5ca6cfab780c1144dba9d5415ec814c7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ProtectionMaskR:
+        m_Texture: {fileID: 2800000, guid: 6e4cb514e40c13a498d3132d787fcd75, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AO_Power: 0.1
+    - _ASEOutlineWidth: 0.01
+    - _Cutoff: 0.5
+    - _ExtraGloss_FromColor4: 0.373
+    - _ExtraMetal_FromColor5: 0.664
+    - _Float1: 0.394
+    - _OutlineWidth: 0.135
+    - _OverallEffect: 1
+    - _OverallEmissive: 0.059
+    - _OverrideGloss: 0.085
+    - _ProtectionLevel: 1
+    - _ProtectionLevellast2Colors: 1
+    - _Range1: 0.2
+    - _Range2: 0.2
+    - _Range3: 0.2
+    - _Range4: 0.2
+    - _Range5: 0.2
+    - _Soft_FallOff1: 0.327
+    - _Soft_FallOff2: 0.283
+    - _Soft_FallOff3: 0.302
+    - _Soft_FallOff4: 0.394
+    - _Soft_FallOff5: 0.511
+    - __dirty: 0
+    m_Colors:
+    - _ASEOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    - _ColorDetect1: {r: 0.0680647, g: 0.08823532, b: 0.05839102, a: 1}
+    - _ColorDetect1Softness: {r: 0.0680647, g: 0.08823532, b: 0.05839102, a: 0.472}
+    - _ColorDetect2: {r: 0.44318977, g: 0.44852942, b: 0.22426471, a: 1}
+    - _ColorDetect2Softness: {r: 0.44318977, g: 0.44852942, b: 0.22426471, a: 0.191}
+    - _ColorDetect3: {r: 0.46086705, g: 0.5588235, b: 0.21366782, a: 1}
+    - _ColorDetect3Softness: {r: 0.5902126, g: 0.6911765, b: 0.33542386, a: 0.366}
+    - _ColorDetect4: {r: 0.5915388, g: 0.6691177, b: 0.33455884, a: 1}
+    - _ColorDetect4Softness: {r: 0.5915388, g: 0.6691177, b: 0.33455884, a: 0.253}
+    - _ColorDetect5: {r: 0.74509805, g: 0.78823537, b: 0.5019608, a: 1}
+    - _ColorDetect5Softness: {r: 0.74509805, g: 0.78823537, b: 0.5019608, a: 0.222}
+    - _NewColor1: {r: 0.24264705, g: 0.24264705, b: 0.24264705, a: 1}
+    - _NewColor2: {r: 0.24340768, g: 0.29411763, b: 0.14705881, a: 1}
+    - _NewColor3: {r: 0.44882473, g: 0.4705882, b: 0.07612455, a: 1}
+    - _NewColor4: {r: 0.54493207, g: 0.6102941, b: 0.31412193, a: 1}
+    - _NewColor4ExtraGloss: {r: 0.54493207, g: 0.6102941, b: 0.31412193, a: 0.715}
+    - _NewColor5: {r: 0.6836207, g: 0.8970588, b: 0.44193336, a: 1}
+    - _NewColor5ExtraGloss: {r: 0.8489649, g: 0.9338235, b: 0.71410036, a: 0.165}
+    - _NewColor5ExtraMetal: {r: 0.6836207, g: 0.8970588, b: 0.44193336, a: 0.053}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 0}

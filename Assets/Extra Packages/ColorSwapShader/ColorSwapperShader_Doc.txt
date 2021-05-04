@@ -1,0 +1,57 @@
+How to use ColorSwap Shader.
+
+*Best version of this shader is the 5 Color - Cutout 2 sided - Please request more shader options by E-mail : me@robertramsay.co.uk
+Email me before reviewing, I can fix and update within 2 days normally.
+
+Shader located in the ColorSwapper folder of the shaders (both in project and shader list)
+
+ColorSwap_Basic:
+
+Uses The base texture to determine the 3 colors that can be changed.
+
+This is a self-lit and better suited for mobile or simple art styles such as low poly or polygonal style.
+
+Base Metal - the overall metalness
+Base Gloss - the overal glossness
+
+Protection mask(R) - this is a greyscale texture or black+white where black areas protect parts from having their color changed during the swap. Great for keeping certain colours intact such as skin tones or hair etc.
+
+ColorSwap_Standard MetalGloss:
+
+Works in a similar way to teh 'Standard' Material, this shader accepts a Normal Map and a Metal-Smooth(Gloss) map.
+
+There are 3 Color Detectors/Swappers. Each ColorDetect-Softness will be used to sample a colour from your character in the scene, please disable the realtime lighting icon in the editor (little sun icon at the top of the scene editor) so that you can sample the correct color.
+
+Use the Alpha of this color Detect to have a softer falloff, and use the range slider to increase the overall tolerance. The New Color will be the color that the detected color gets swapped to.
+
+Color1 - This will allow the change of gloss values as well as color
+Color2 - This will allow the change of gloss values as well as color
+Color3 - This will allow the change of METAL values as well as color
+
+Overall emissive slider is to make the whole effect self-lit, like a more cartoony look.
+Overall Effect slider goes between the original version and the new color swaps.
+Override Gloss - this will allow you to change the gloss effect
+
+Protection mask(R) - this is a greyscale texture or black+white where black areas protect parts from having their color changed during the swap. Great for keeping certain colours intact such as skin tones or hair etc.
+
+With the 5-Color Shader
+
+An AO slot has been introduced (v1.25)
+Extra sliders instead of using Alpha values (cleaner)
+
+Sprite color Swapper:
+
+This shader is used for sprites, if you bring in your own sprite be sure to set it to filter: point(no filter) and also No mip mapping, and compression to none.
+Your sprite should have transparency around its edges like any common sprite. Keep your original spite colors well defined for this to work. The color swap does
+not know where to change, only what colors to change so if you have red shows and red hair in your sprite and want to change anything red to a new color, both
+hair and shoes will be affected as it purely changes the pixel colors. This applies to the whole color swap system for both textures and sprites.
+
+Sprite Color Swapper shaders now support different number of color swaps 8,16,32,36,40 and 48
+Each color pick will override the previous one sequencially so if both color pick 1 and 4 sample the same color, 4 will have the final say. You can slide the alpha 
+of the new color to make the texture transparent.
+
+Please check out the extensive videos from the Unity asset store page.
+https://assetstore.unity.com/packages/vfx/shaders/color-swapper-shader-140291
+
+Note:
+The Ogre. This Ogre is owned by RRFreelance and is Rigged but not animated and is not for any type of resale or use in your games. It is for Demo purposes only and will be sold separately with animations on the RRFreelance stores only.

@@ -1,0 +1,173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ColorTester 1
+  m_Shader: {fileID: 4800000, guid: d7872c84de59e664caa691f2fe77ddcf, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: d5c7fc9f202ba024d8688e470022a097, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ColorMask: 15
+    - _OverallEffect: 1
+    - _Range1: 0.403
+    - _Range10: 0.2
+    - _Range11: 0.2
+    - _Range12: 0.2
+    - _Range13: 0.2
+    - _Range14: 0.2
+    - _Range15: 0.2
+    - _Range16: 0.2
+    - _Range17: 0.2
+    - _Range18: 0.2
+    - _Range19: 0.2
+    - _Range2: 0.2
+    - _Range20: 0.2
+    - _Range21: 0.2
+    - _Range22: 0.2
+    - _Range23: 0.2
+    - _Range24: 0.2
+    - _Range25: 0.2
+    - _Range26: 0.2
+    - _Range27: 0.2
+    - _Range28: 0.2
+    - _Range29: 0.2
+    - _Range3: 0.2
+    - _Range30: 0.2
+    - _Range31: 0.2
+    - _Range32: 0.293
+    - _Range33: 0.362
+    - _Range4: 0.2
+    - _Range5: 0.2
+    - _Range6: 0.2
+    - _Range7: 0.2
+    - _Range8: 0.2
+    - _Range9: 0.2
+    - _SoftFalloff1: 0.076
+    - _SoftFalloff10: 0.1
+    - _SoftFalloff11: 0.1
+    - _SoftFalloff12: 0.1
+    - _SoftFalloff13: 0.1
+    - _SoftFalloff14: 0.1
+    - _SoftFalloff15: 0.1
+    - _SoftFalloff16: 0.1
+    - _SoftFalloff17: 0.1
+    - _SoftFalloff18: 0.1
+    - _SoftFalloff19: 0.1
+    - _SoftFalloff2: 0.1
+    - _SoftFalloff20: 0.1
+    - _SoftFalloff21: 0.1
+    - _SoftFalloff22: 0.1
+    - _SoftFalloff23: 0.1
+    - _SoftFalloff24: 0.1
+    - _SoftFalloff25: 0.1
+    - _SoftFalloff26: 0.1
+    - _SoftFalloff27: 0.1
+    - _SoftFalloff28: 0.1
+    - _SoftFalloff29: 0.1
+    - _SoftFalloff3: 0.1
+    - _SoftFalloff30: 0.1
+    - _SoftFalloff31: 0.1
+    - _SoftFalloff32: 0.146
+    - _SoftFalloff33: 0.228
+    - _SoftFalloff4: 0.1
+    - _SoftFalloff5: 0.1
+    - _SoftFalloff6: 0.1
+    - _SoftFalloff7: 0.1
+    - _SoftFalloff8: 0.1
+    - _SoftFalloff9: 0.1
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseUIAlphaClip: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color0: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorDetect1: {r: 0, g: 0, b: 0, a: 0}
+    - _ColorDetect10: {r: 0, g: 0, b: 0, a: 0}
+    - _ColorDetect11: {r: 0, g: 0, b: 0, a: 0}
+    - _ColorDetect12: {r: 0, g: 0, b: 0, a: 0}
+    - _ColorDetect13: {r: 0, g: 0, b: 0, a: 0}
+    - _ColorDetect14: {r: 0, g: 0, b: 0, a: 0}
+    - _ColorDetect15: {r: 0, g: 0, b: 0, a: 0}
+    - _ColorDetect16: {r: 0, g: 0, b: 0, a: 0}
+    - _ColorDetect17: {r: 0, g: 0, b: 0, a: 0}
+    - _ColorDetect18: {r: 0, g: 0, b: 0, a: 0}
+    - _ColorDetect19: {r: 0, g: 0, b: 0, a: 0}
+    - _ColorDetect2: {r: 0, g: 0, b: 0, a: 0}
+    - _ColorDetect20: {r: 0, g: 0, b: 0, a: 0}
+    - _ColorDetect21: {r: 0, g: 0, b: 0, a: 0}
+    - _ColorDetect22: {r: 0, g: 0, b: 0, a: 0}
+    - _ColorDetect23: {r: 0, g: 0, b: 0, a: 0}
+    - _ColorDetect24: {r: 0, g: 0, b: 0, a: 0}
+    - _ColorDetect25: {r: 0, g: 0, b: 0, a: 0}
+    - _ColorDetect26: {r: 0, g: 0, b: 0, a: 0}
+    - _ColorDetect27: {r: 0, g: 0, b: 0, a: 0}
+    - _ColorDetect28: {r: 0, g: 0, b: 0, a: 0}
+    - _ColorDetect29: {r: 0, g: 0, b: 0, a: 0}
+    - _ColorDetect3: {r: 0, g: 0, b: 0, a: 0}
+    - _ColorDetect30: {r: 0, g: 0, b: 0, a: 0}
+    - _ColorDetect31: {r: 0, g: 0, b: 0, a: 0}
+    - _ColorDetect32: {r: 0, g: 0, b: 0, a: 0}
+    - _ColorDetect33: {r: 0.34509805, g: 0.019607844, b: 0.70980394, a: 1}
+    - _ColorDetect4: {r: 0, g: 0, b: 0, a: 0}
+    - _ColorDetect5: {r: 0, g: 0, b: 0, a: 0}
+    - _ColorDetect6: {r: 0, g: 0, b: 0, a: 0}
+    - _ColorDetect7: {r: 0, g: 0, b: 0, a: 0}
+    - _ColorDetect8: {r: 0, g: 0, b: 0, a: 0}
+    - _ColorDetect9: {r: 0, g: 0, b: 0, a: 0}
+    - _NewColor1: {r: 1, g: 1, b: 1, a: 1}
+    - _NewColor10: {r: 1, g: 1, b: 1, a: 1}
+    - _NewColor11: {r: 1, g: 1, b: 1, a: 1}
+    - _NewColor12: {r: 1, g: 1, b: 1, a: 1}
+    - _NewColor13: {r: 1, g: 1, b: 1, a: 1}
+    - _NewColor14: {r: 1, g: 1, b: 1, a: 1}
+    - _NewColor15: {r: 1, g: 1, b: 1, a: 1}
+    - _NewColor16: {r: 1, g: 1, b: 1, a: 1}
+    - _NewColor17: {r: 1, g: 1, b: 1, a: 1}
+    - _NewColor18: {r: 1, g: 1, b: 1, a: 1}
+    - _NewColor19: {r: 1, g: 1, b: 1, a: 1}
+    - _NewColor2: {r: 1, g: 1, b: 1, a: 1}
+    - _NewColor20: {r: 1, g: 1, b: 1, a: 1}
+    - _NewColor21: {r: 1, g: 1, b: 1, a: 1}
+    - _NewColor22: {r: 1, g: 1, b: 1, a: 1}
+    - _NewColor23: {r: 1, g: 1, b: 1, a: 1}
+    - _NewColor24: {r: 1, g: 1, b: 1, a: 1}
+    - _NewColor25: {r: 1, g: 1, b: 1, a: 1}
+    - _NewColor26: {r: 1, g: 1, b: 1, a: 1}
+    - _NewColor27: {r: 1, g: 1, b: 1, a: 1}
+    - _NewColor28: {r: 1, g: 1, b: 1, a: 1}
+    - _NewColor29: {r: 1, g: 1, b: 1, a: 1}
+    - _NewColor3: {r: 1, g: 1, b: 1, a: 1}
+    - _NewColor30: {r: 0, g: 0, b: 0, a: 1}
+    - _NewColor31: {r: 1, g: 0.7322526, b: 0, a: 0}
+    - _NewColor32: {r: 0, g: 0, b: 0, a: 1}
+    - _NewColor33: {r: 0.9290118, g: 1, b: 0, a: 1}
+    - _NewColor4: {r: 1, g: 1, b: 1, a: 1}
+    - _NewColor5: {r: 1, g: 1, b: 1, a: 1}
+    - _NewColor6: {r: 1, g: 1, b: 1, a: 1}
+    - _NewColor7: {r: 1, g: 1, b: 1, a: 1}
+    - _NewColor8: {r: 1, g: 1, b: 1, a: 1}
+    - _NewColor9: {r: 1, g: 1, b: 1, a: 1}

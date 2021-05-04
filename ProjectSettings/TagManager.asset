@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - one
+  - two
+  - three
+  - floor
+  - TeleportBack
+  - GM
+  - Pivot
+  - Magnetise
+  - Talisman
+  - Potion
+  - Orb
+  - Orb2
+  - RightDoorTrigger
+  - LeftDoorTrigger
+  - floor2
+  - Switch
+  - NPCTrigger
+  - Cam2
+  - Bridge
+  - Begin
+  - Options
+  - fire
+  - fire2
+  - stove
+  - Warning
+  - OrbCollected
+  - Hints
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PostProcessing
+  - Above
+  - Below
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

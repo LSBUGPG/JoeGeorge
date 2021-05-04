@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ColorSwap_Example_StandardMetalGloss
+  m_Shader: {fileID: 4800000, guid: e5335bbc298d758438adf674046430f6, type: 3}
+  m_ShaderKeywords: _ACTIVE_ON
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AO_Map:
+        m_Texture: {fileID: 2800000, guid: b1512e710af83424fb2193fb21241ecc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AlbedoTexture:
+        m_Texture: {fileID: 2800000, guid: 87ae3159010e2b14fb9aaa521344b200, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTextureGloss:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetalGloss:
+        m_Texture: {fileID: 2800000, guid: d415f222ceeabb84991e3e002808363e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 5ca6cfab780c1144dba9d5415ec814c7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ProtectionMaskR:
+        m_Texture: {fileID: 2800000, guid: 6e4cb514e40c13a498d3132d787fcd75, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AO_Power: 0.6
+    - _ExtraGloss_FromColor4: 0.52
+    - _ExtraMetal_FromColor5: 0
+    - _FresnelScale: 1
+    - _OutlineWidth: 0
+    - _OverallEffect: 1
+    - _OverallEmissive: 0.1
+    - _OverrideGloss: 0
+    - _ProtectionLevel: 1
+    - _Range1: 0.478
+    - _Range2: 0.235
+    - _Range3: 0.108
+    - _Range4: 0.138
+    - _Range5: 0.259
+    - _Soft_FallOff1: 0.432
+    - _Soft_FallOff2: 0.215
+    - _Soft_FallOff3: 0.147
+    - _Soft_FallOff4: 0.141
+    - _Soft_FallOff5: 0.298
+    - __dirty: 0
+    m_Colors:
+    - _ColorDetect1: {r: 0.066176474, g: 0.05693123, b: 0.05693123, a: 1}
+    - _ColorDetect1Softness: {r: 1, g: 0, b: 0, a: 0}
+    - _ColorDetect2: {r: 0.19404197, g: 0.27205884, b: 0.21072143, a: 1}
+    - _ColorDetect2Softness: {r: 0, g: 1, b: 0.213793, a: 0}
+    - _ColorDetect3: {r: 0.27085072, g: 0.58823526, b: 0.25951555, a: 1}
+    - _ColorDetect3Softness: {r: 0, g: 1, b: 0.213793, a: 0}
+    - _ColorDetect4: {r: 0.48602793, g: 0.6838235, b: 0.37208045, a: 1}
+    - _ColorDetect5: {r: 0.5474156, g: 0.99264705, b: 0.5689095, a: 1}
+    - _FresnelColor_AmountA: {r: 0, g: 0, b: 0, a: 0}
+    - _NewColor1: {r: 0.24264705, g: 0.2320897, b: 0.17306444, a: 0}
+    - _NewColor2: {r: 0.21323532, g: 0.19065745, b: 0.15679067, a: 0}
+    - _NewColor3: {r: 0.5152816, g: 0.52205884, b: 0.4913495, a: 0}
+    - _NewColor4: {r: 0.5507435, g: 0.49875647, b: 0.5514706, a: 1}
+    - _NewColor5: {r: 0.43382353, g: 0.43382353, b: 0.43382353, a: 1}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 0}
